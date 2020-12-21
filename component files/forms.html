@@ -1,0 +1,88 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>
+	Form
+	</title>
+</head>
+<body>
+
+	<h1 style="text-align: center;">
+	Registration Form </h1>
+
+	<hr>
+	<br>
+
+	<table style="margin:auto;"> 
+		<tr> 
+			<td> First Name </td>
+			<td>:</td>
+			<td> <input type="text" name="tx_firstname" placeholder="first, middle name here" required> </td>
+		</tr>
+		
+		<tr>
+			<td> Last Name </td>
+			<td>:</td>
+			<td> <input type="text" name="tx_lastname" placeholder="last name here" required> </td>
+		</tr>
+
+		<tr>
+			<td> Gender </td>
+			<td>:</td>
+			<td> <input type="radio" name="tx_gender" id="male"> Male <input type="radio" name="tx_gender" id="female"> Female </td>
+		</tr>
+
+		<tr>
+			<td> Password </td>
+			<td>:</td>
+			<td> <input type="password" name="tx_password" placeholder="password here" required> </td>
+		</tr>
+
+		<tr>
+			<td> Confirmation </td>
+			<td>:</td>
+			<td> <input type="password" name="tx_confirmation" placeholder="retype password here" required></td>
+		</tr>
+
+		<tr>
+			<td> Email </td>
+			<td>:</td>
+			<td> <input type="email" name="tx_email" placeholder="email address here" required></td>
+		</tr>
+
+		<tr>
+			<td> Phone </td>
+			<td>:</td>
+			<td> <input type="text" name="tx_phone" placeholder="phone number here" required></td>
+		</tr>
+
+		<tr>
+			<td> City </td>
+			<td>:</td>
+			<td> <select style="width:155px" name="tx_city"> 
+				<option> Jakarta </option>
+				<option> Bandung </option>
+				<option> Semarang </option>
+			</select> </td>
+		</tr>
+
+		<tr>
+			<td> Address </td>
+			<td>:</td>
+			<td> <textarea name="tx_address" style="width:150px"> </textarea> </td>
+		</tr>
+
+		<tr style="text-align:right;">
+			<td colspan="3"> <input type="checkbox" name="tx_terms" required> Terms & Conditions </td>
+		</tr>
+	</table>
+
+	<br>
+	<form style="text-align:center;" action="" method="POST">
+			<input type="reset"> 
+			<input type="submit" name="tx_submit">
+	</form>
+
+
+</body>
+</html>
