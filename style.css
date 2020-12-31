@@ -36,7 +36,8 @@
   	}
 
   	.catchline{
-	margin: 7%  5% 5%; 
+	margin-bottom: 5%;
+	margin-top: 5%;   
 	}
 
 	.parta{
@@ -91,6 +92,9 @@
 	}
 
 	.partb{
-	display: inline-block;
-	margin:4%;
+	margin-bottom: 3%;
+	}
+
+	.push{
+	margin-top:7%;
 	}
