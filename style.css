@@ -128,7 +128,14 @@
 	margin-top:7%;
 	}
 
-	/* SOCIAL PANEL CSS */
+/* SOCIAL PANEL CSS */
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
 .social-panel-container {
 	position: fixed;
 	right: 0;
