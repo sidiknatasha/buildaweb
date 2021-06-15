@@ -22,14 +22,14 @@
   	color: black;
 	}
 
+	.black:hover{
+	color: #004a87;
+	}
+
 	.items{
 	padding: 10px;
 	cursor: pointer;
 	margin: 10px 0px 0px 20px;
-	}
-
-	.black:hover{
-	color: #c88dd1;
 	}
 
   	.flex-container {
@@ -61,59 +61,14 @@
 	font-weight: 400;
 	}
 
-	.buttona{
-	padding: 10px;
-	background-color:#c88dd1;
-	border: 1px solid #c88dd1;
-	border-radius: 5px;
-	}
-	
-	.buttona a{
-	color:white;
-	font-size : 14pt;
-	}
-
-	.buttona:hover{
-	background-color: #001F61;
-	border: 1px solid #001F61;
-	}
-
-	.buttona a:hover{
-	color:white;
-	font-size : 14pt;
-	text-decoration: none;
-	}
-
-	.buttonb{
-	padding: 10px;
-	background-color:lightgrey;
-	border: 1px solid lightgrey;
-	border-radius: 5px;
-	}
-
-	.buttonb:hover{
-	background-color: #001F61;
-	border: 1px solid #001F61;
-	}
-
-	.buttonb a{
-	color:white;
-	font-size : 14pt;
-	}
-
-	.buttonb a:hover{
-	color:white;
-	font-size : 14pt;
-	text-decoration: none;
-	}
-
 	h5 a{
-	color: #c88dd1;
+	color: #004a87;
 	text-decoration: underline;
 	}
 
-	.purple{
-	color: #c88dd1;;
+	h5 a:hover{
+	color: black;
+	text-decoration: underline;
 	}
 
 	.partb{
